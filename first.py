@@ -19,3 +19,6 @@ print("\nAccessing row2:\n",df.loc["Row2"])
 #Acess specific values of key............
 print("\nName of first row:", df.loc["Row1", "Name"])
 print("Marks of first row:", df.loc["Row1", "Marks"]) 
+
+#Access values by integers....................
+print("\nAccess row 4 and 5\n",df.iloc[[3,4]])
